@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinos Baratos y Hermosos</title>
+    <style>
+      /* Estilos básicos para la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff;
+        color: #333;
+      }
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        text-align: center;
+        padding: 20px;
+      }
+      header h1 {
+        color: #2c3e50;
+      }
+      .destination-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .destination {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 15px;
+        background-color: #eaf6f6;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .destination img {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+      }
+      .destination h3 {
+        color: #34495e;
+        margin-bottom: 10px;
+      }
+      .destination p {
+        font-size: 0.9em;
+        color: #555;
+      }
+      /* Estilos para la barra de navegación */
+      .navbar {
+        background-color: #333; /* Color de fondo */
+        padding: 10px 20px;
+        text-align: center;
+      }
+
+      .navbar a {
+        color: white; /* Color del texto */
+        text-decoration: none; /* Sin subrayado */
+        margin: 0 15px; /* Espacio entre enlaces */
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s ease; /* Transición para el efecto hover */
+      }
+
+      .navbar a:hover {
+        background-color: #555; /* Fondo al pasar el mouse */
+      }
+
+      .navbar a:active {
+        background-color: #777; /* Fondo cuando se hace clic */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="futbol.html">Fútbol</a>
+        <a href="viajes.html">Viajes</a>
+      </nav>
+      <!-- Encabezado -->
+      <header>
+        <h1>Destinos Baratos y Hermosos para Visitar</h1>
+        <p>
+          Descubre tres lugares asombrosos y asequibles para viajar y disfrutar
+          de paisajes únicos.
+        </p>
+      </header>
+
+      <!-- Lista de destinos -->
+      <div class="destination-list">
+        <!-- Destino 1 -->
+        <div class="destination">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxL8--4Jye0B3foGtb3VIbxRiDSqi0pbYNQ&s"
+            alt="Bali, Indonesia"
+          />
+          <div>
+            <h3>Bali, Indonesia</h3>
+            <p>
+              Bali es conocido por sus playas paradisíacas, templos antiguos y
+              vibrante cultura. Es un destino asequible con múltiples opciones
+              de hospedaje, desde hostales hasta villas económicas, y comida
+              deliciosa a bajo costo.
+            </p>
+          </div>
+        </div>
+
+        <!-- Destino 2 -->
+        <div class="destination">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqIBKLEu8sKwkpYqe6aN9qwdzAUqvB6_iug&s"
+            alt="Budapest, Hungría"
+          />
+          <div>
+            <h3>Budapest, Hungría</h3>
+            <p>
+              Budapest es una joya de Europa con arquitectura impresionante y
+              aguas termales relajantes. La ciudad ofrece muchas actividades a
+              precios accesibles, desde visitas a museos hasta cruceros por el
+              río Danubio.
+            </p>
+          </div>
+        </div>
+
+        <!-- Destino 3 -->
+        <div class="destination">
+          <img
+            src="https://cdn-ilaoonf.nitrocdn.com/hGaecPOMVVtUajEuIAoZjUHmENcbavzs/assets/images/optimized/rev-0f65a9a/two.travel/wp-content/uploads/2021/11/Cartagena-Blog-Background.jpg"
+            alt="Cartagena, Colombia"
+          />
+          <div>
+            <h3>Cartagena, Colombia</h3>
+            <p>
+              Con su arquitectura colonial, calles coloridas y playas caribeñas,
+              Cartagena es un destino encantador y económico. Los visitantes
+              pueden disfrutar de paseos en el casco histórico, gastronomía
+              local y playas cercanas a precios razonables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
